@@ -7,7 +7,7 @@ const FILE_PATH = "./data.json";
 const makeCommit = (n) => {
   if (n === 0) return simpleGit().push();
 
-  const x = getRandomInt(52, 55); // Generates a random integer between 0 and 54
+  const x = getRandomInt(0, 55); // Generates a random integer between 0 and 54
   const y = getRandomInt(0, 7); // Generates a random integer between 0 and 6
 
   const DATE = moment()
